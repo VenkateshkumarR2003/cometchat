@@ -13,6 +13,32 @@
   import Footer from "./components/Footer.svelte";
 </script>
 
+
+<svelte:head>
+<title>AI Agent Platform | CometChat</title>
+
+<meta name="description"
+content="Build AI-powered chat experiences with CometChat. Add messaging, voice and video to your applications." />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta property="og:title" content="AI Agent Platform | CometChat">
+<meta property="og:description" content="Build AI-powered chat experiences with CometChat.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cometchatclone.netlify.app/">
+
+<link rel="canonical" href="https://cometchatclone.netlify.app/" />
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebSite",
+ "name": "CometChat Clone",
+ "url": "https://cometchatclone.netlify.app/"
+}
+</script>
+</svelte:head>
+
 <div class="page">
 
   <!-- Header -->
